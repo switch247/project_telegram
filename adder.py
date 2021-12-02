@@ -53,7 +53,7 @@ time.sleep(1)
 clear()
 
 if os.path.isfile('switch247_log.txt'):
-    with open('switch247.txt', 'r') as r:
+    with open('switch247_log.txt', 'r') as r:
         data = r.readlines()
     api_id = data[0]
     api_hash = data[1]
