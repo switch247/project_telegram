@@ -16,9 +16,10 @@ wt = (
 [[gr]]|_   _|((_)_  _(_/( (_) _((_))  ((_)| |((_)_  
   [[gr]]| |  / _` || ' \))| || '  \()/ _ \| |/ _` | 
   |_|  \__,_||_||_| |_||_|_|_| \___/|_|\__,_| 
-   [[re]][switch247][[ye]] 
+   [[re]][switch247][[ye]] have fun
   
   github.com/switch247 
+  yes i copied most of this code
     '''
 )
 COLORS = {
@@ -60,7 +61,7 @@ if os.path.isfile('switch247_log.txt'):
 else:
     api_id = input('Enter api_id: ')
     api_hash = input('Enter api_hash: ')
-    with open('erfan4lx_log.txt', 'w') as a:
+    with open('switch247_log.txt', 'w') as a:
         a.write(api_id + '\n' + api_hash)
 
 client = TelegramClient('switch247', api_id, api_hash)
